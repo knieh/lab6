@@ -3,6 +3,7 @@
  */
 
 exports.view = function(req, res){
+	console.log("234");
   res.render('index', {
 	'projects': [
 		{ 	'name': 'Waiting in Line',
